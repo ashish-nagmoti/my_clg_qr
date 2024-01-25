@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Quiz: Who Are You?</title>
+    
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .radio-label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        #result {
+            display: none;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Get Ready to Laugh and Discover Yourself!</h1>
+    <p>Answer these hilarious questions to reveal your true personality, spirit animal, and more!</p>
+
+    <form  action="/web" method="POST">
+        <div class="question">
+            <h3>1. You're more likely to:</h3>
+            <label class="radio-label">
+                <input type="radio" name="q1" value="a"> Trip over air and blame gravity.
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q1" value="b"> Solve a Rubik's Cube while blindfolded and juggling chainsaws.
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q1" value="c"> Confidently explain quantum physics to a goldfish.
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q1" value="d"> All of the above (because you're awesome).
+            </label>
+        </div>
+        <div class="question">
+            <h3>2. When faced with a difficult task, you are most likely to:</h3>
+            <label class="radio-label">
+                <input type="radio" name="q2" value="a"> Panic and run away screaming (into a wall, probably).
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q2" value="b"> Channel your inner MacGyver and improvise a solution with a paperclip and a shoelace.
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q2" value="c"> Procrastinate until the last minute, then pull off a miracle (or at least convince everyone you did).
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q2" value="d"> Consult ancient prophecies and mystical omens for guidance (because why not?).
+
+            </label>
+        </div>
+        <div class="question">
+            <h3>3. Your superpower would be:</h3>
+            <label class="radio-label">
+                <input type="radio" name="q3" value="a"> The ability to instantly fall asleep anywhere, anytime.
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q3" value="b"> Making everyone laugh so hard they cry (or pee their pants).
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q3" value="c"> Downloading knowledge directly into your brain (like in The Matrix).
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q3" value="d"> Teleporting to any place you can imagine (because who wants to deal with traffic?).
+            </label>
+        </div>
+        <div class="question">
+            <h3>4. Your personal motto is:</h3>
+            <label class="radio-label">
+                <input type="radio" name="q4" value="a"> Why do today what you can put off until tomorrow?
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q4" value="b"> Life is a party, and I'm bringing the confetti!
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q4" value="c"> Knowledge is power, unless it's about my browser history.
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q4" value="d"> Always be yourself, unless you can be a unicorn. Then always be a unicorn.
+            </label>
+        </div>
+        <div class="question">
+            <h3>5. The world needs more people like you because:</h3>
+            <label class="radio-label">
+                <input type="radio" name="q5" value="a"> You're the master of relaxation and can teach us all how to chill.
+            <label class="radio-label">
+                <input type="radio" name="q5" value="b">You bring laughter and joy wherever you go.
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q5" value="c"> You're intelligent, curious, and always up for a challenge.
+            </label>
+            <label class="radio-label">
+                <input type="radio" name="q5" value="d"> You remind us that life is an adventure, and we should all be embracing it.
+            </label>
+        </div>
+
+        <button type="submit" >Submit!</button>
+    </form>
+
+</body>
+</html>
